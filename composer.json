@@ -1,0 +1,32 @@
+{
+    "name": "jdecool/enum-doctrine",
+    "type": "library",
+    "description": "Doctrine for enum objects",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jérémy DECOOL",
+            "email": "contact@jdecool.fr"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "doctrine/dbal": "^3.0",
+        "jdecool/enum": "@dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "vimeo/psalm": "^4.3",
+        "phpspec/prophecy-phpunit": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "JDecool\\Enum\\Doctrine\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "JDecool\\Enum\\Doctrine\\Tests\\": "tests/"
+        }
+    }
+}
