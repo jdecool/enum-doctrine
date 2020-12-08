@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace JDecool\Enum\Doctrine;
 
 use Doctrine\DBAL\{
-    DBALException,
+    Exception as DBALException,
     Platforms\AbstractPlatform,
     Types\Type,
 };
