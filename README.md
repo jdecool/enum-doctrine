@@ -1,6 +1,9 @@
 Doctrine Enum Type
 ==================
 
+[![Build Status](https://github.com/jdecool/enum-doctrine/workflows/CI/badge.svg)](https://github.com/jdecool/enum-doctrine/actions?query=workflow%3ACI)
+[![Latest Stable Version](https://poser.pugx.org/jdecool/enum-doctrine/v/stable.png)](https://packagist.org/packages/jdecool/enum-doctrine)
+
 This package provides a base implementation to define doctrine entity column types that are mapped to `JDecool\Enum\Enum` objects (of [`jdecool/enum`](https://github.com/jdecool/enum) package).
 
 This is a port of [`acelaya/doctrine-enum-type`](https://github.com/acelaya/doctrine-enum-type).
