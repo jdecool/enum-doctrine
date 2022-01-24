@@ -8,6 +8,13 @@ This package provides a base implementation to define doctrine entity column typ
 
 This is a port of [`acelaya/doctrine-enum-type`](https://github.com/acelaya/doctrine-enum-type).
 
+## Deprecated
+
+⚠️ This project is no longer actively maintained.
+
+Native enum arrived to PHP in version 8.1: https://www.php.net/enumerations
+If your project is running PHP 8.1+ or your library has it as a minimum requirement you should use it instead of this library.
+
 ## Installation
 
 Install it using [Composer](https://getcomposer.org):
